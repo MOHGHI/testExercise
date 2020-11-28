@@ -123,8 +123,8 @@ Free for personal and commercial use under the CCA 3.0 license (html5up.net/lice
                 كلمة المرور <br>
                 <input type="password" name="pass"><br>
                 <input type="submit" name="btn" value="click" class="button style1"><br>           
-        <a href="Forgot.php"> نسيت كلمة المرور؟</a><br>
-               <a href="registerMN.php">ليس لديك حساب </a>
+        <a href="forgot.php"> نسيت كلمة المرور؟</a><br>
+               <a href="RegisterMN.php">ليس لديك حساب </a>
    
  </div>  
 </section>

@@ -110,8 +110,8 @@ $_SESSION['name'] = $row['fullname'];
 
                     </form>
                     <br> <br>
-                <a href="Forgot.php"> نسيت كلمة المرور؟</a><br>
-                <a href="registerMT.php">ليس لديك حساب </a>
+                <a href="forgot.php"> نسيت كلمة المرور؟</a><br>
+                <a href="RegisterMT.php">ليس لديك حساب </a>
     
     </div>  
 
