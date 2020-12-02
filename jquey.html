@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+    <script src="https://code.jquery.com/jquery-1.12.4.min.js"></script>
+</head>
+<body>
+
+<script>
+    $(document).keydown(function(e){
+
+        var keyCode = e.which,
+            arrow = {left: 37, up: 38, right: 39, down: 40 };
+
+        switch (keyCode) {
+        case arrow.left:
+            alert('Arrow left was pressed.')
+            break;
+        case arrow.right:
+            alert('Arrow right was pressed.')
+            break;
+        case arrow.up:
+            alert('Arrow up was pressed.')
+            break;
+        case arrow.down:
+            alert('Arrow down was pressed.')
+            break;
+        }
+    })
+</script>
+</body>
+</html>
